@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "versatile-projects",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/malcolmgovender/Projects/versatile-projects",
+      "port": 3000
+    }
+  ]
+}
