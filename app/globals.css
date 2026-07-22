@@ -6,7 +6,7 @@
   --color-mint: #2ee88a;
   --color-mint-soft: #9af0c4;
   --color-jade: #0fa968;
-  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
   --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -23,7 +23,12 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.035em;
+  font-weight: 650;
+}
+
+h1 {
+  letter-spacing: -0.045em;
 }
 
 /* Subtle grain + radial glow backdrop for the whole site */
@@ -105,10 +110,11 @@ h1, h2, h3, h4 {
 }
 
 .text-gradient {
-  background: linear-gradient(120deg, #2ee88a 0%, #9af0c4 50%, #2ee88a 100%);
+  background: linear-gradient(94deg, #4bff9b 0%, #14e87c 50%, #00cb64 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  filter: drop-shadow(0 0 24px rgba(0, 229, 114, 0.28));
 }
 
 .hairline {
