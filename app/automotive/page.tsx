@@ -6,7 +6,7 @@ import Faq from '@/components/Faq';
 export const metadata: Metadata = {
   title: 'Versatile Auto | Premium Mobile Automotive Services',
   description:
-    'Mobile vehicle detailing, paint protection film, panel beating, spray painting, wrapping and fitment — premium automotive care brought to your doorstep.',
+    'Mobile vehicle detailing, paintless dent removal, paint protection film, panel beating, spray painting, wrapping and fitment — premium automotive care brought to your doorstep.',
 };
 
 const services = [
@@ -21,9 +21,14 @@ const services = [
       'Mobile application of protective film that shields your paintwork from scratches, chips and the elements.',
   },
   {
+    title: 'Paintless Dent Removal',
+    description:
+      'Dents, dings and hail damage removed to a factory finish — no respray needed, done at your location.',
+  },
+  {
     title: 'Panel Beating',
     description:
-      'Dents, scratches and imperfections repaired with advanced techniques and a flawless colour-matched finish.',
+      'Scratches and body imperfections repaired with advanced techniques and a flawless colour-matched finish.',
   },
   {
     title: 'Spray Painting',
@@ -52,6 +57,11 @@ const faqs = [
     question: 'How does the mobile repair process work?',
     answer:
       'Our mobile service brings expert technicians to your location. We assess the work, provide a quote, and complete the job on-site for your convenience.',
+  },
+  {
+    question: 'Can you repair dents without respraying?',
+    answer:
+      'Yes — with paintless dent removal we massage dents, dings and hail damage out from behind the panel, preserving your factory paint. It’s faster and more affordable than a respray, and we do it at your location.',
   },
   {
     question: 'What is paint protection film?',

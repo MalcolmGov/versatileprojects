@@ -21,7 +21,7 @@ const divisions = [
     title: 'Versatile Auto',
     image: '/images/hero-automotive.jpg',
     description:
-      'Premium mobile detailing, paint protection film, wrapping and fitment — brought to your doorstep.',
+      'Premium mobile detailing, dent repair, paint protection film, wrapping and fitment — brought to your doorstep.',
   },
 ];
 
