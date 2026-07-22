@@ -38,10 +38,11 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/hero-home.jpg" alt="" fill priority className="object-cover opacity-45" />
-          <div className="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/70 to-ink" />
+          <Image src="/images/hero-home.jpg" alt="" fill priority className="object-cover opacity-75" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/40 to-ink/10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-ink" />
         </div>
-        <div className="relative mx-auto max-w-7xl px-5 pt-28 pb-24 lg:px-8 lg:pt-40 lg:pb-36">
+        <div className="relative mx-auto max-w-7xl px-5 pt-12 pb-24 lg:px-8 lg:pt-16 lg:pb-32">
           <span className="badge animate-rise">Transport · Supply · Automotive</span>
           <h1 className="animate-rise delay-1 mt-6 max-w-3xl text-4xl leading-[1.05] font-bold text-white sm:text-6xl lg:text-7xl">
             Versatile by name.

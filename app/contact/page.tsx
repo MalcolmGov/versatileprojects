@@ -47,7 +47,7 @@ const channels = [
 export default function ContactPage() {
   return (
     <>
-      <section className="mx-auto max-w-7xl px-5 pt-24 pb-16 lg:px-8 lg:pt-32">
+      <section className="mx-auto max-w-7xl px-5 pt-12 pb-16 lg:px-8 lg:pt-16">
         <span className="badge animate-rise">Contact us</span>
         <h1 className="animate-rise delay-1 mt-6 max-w-2xl text-4xl leading-[1.08] font-bold text-white sm:text-5xl lg:text-6xl">
           Let&apos;s turn your vision <span className="text-gradient">into reality</span>
