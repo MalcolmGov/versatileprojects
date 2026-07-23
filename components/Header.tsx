@@ -14,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/8 bg-ink/80 backdrop-blur-xl">
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <Image src="/images/logo.png" alt="Versatile Projects" width={56} height={34} className="h-9 w-auto" />
+          <Image src="/images/logo-mark.png" alt="Versatile Projects" width={140} height={40} priority className="h-10 w-auto" />
           <span className="hidden font-(family-name:--font-display) text-lg font-bold tracking-tight text-white sm:block">
             Versatile <span className="text-mint">Projects</span>
           </span>

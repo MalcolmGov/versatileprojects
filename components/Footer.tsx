@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/8">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div className="space-y-4">
-          <Image src="/images/logo.png" alt="Versatile Projects" width={80} height={49} className="h-12 w-auto" />
+          <Image src="/images/logo-full.png" alt="Versatile Projects" width={302} height={120} className="h-24 w-auto" />
           <p className="max-w-xs text-sm leading-relaxed text-white/50">
             One partner for transport & logistics, industrial supply and premium automotive care — delivered with
             precision across South Africa.
