@@ -12,19 +12,27 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: 'Versatile Projects | Transport, Supplies & Automotive Excellence',
+    default: 'Versatile Projects | Premium Mobile Automotive Services',
     template: '%s | Versatile Projects',
   },
   description:
-    'Versatile Projects is your single partner for transport & logistics brokering, steel & general supplies, precision engineering and premium mobile automotive services across South Africa.',
+    'Premium mobile automotive care across South Africa — detailing, paintless dent removal, paint protection film, panel beating, spray painting, wrapping and fitment, brought directly to your doorstep.',
   openGraph: {
-    title: 'Versatile Projects',
+    title: 'Versatile Projects | Premium Mobile Automotive Services',
     description:
-      'Transport & logistics brokering, steel & general supplies, and premium mobile automotive services — delivered with excellence.',
+      'Mobile detailing, dent repair, paint protection and more for cars, bikes and trucks — high-quality care brought directly to your doorstep.',
     url: site.url,
     siteName: 'Versatile Projects',
     locale: 'en_ZA',
     type: 'website',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Versatile Projects' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Versatile Projects | Premium Mobile Automotive Services',
+    description:
+      'Mobile detailing, dent repair, paint protection and more for cars, bikes and trucks — brought directly to your doorstep.',
+    images: ['/og.png'],
   },
 };
 

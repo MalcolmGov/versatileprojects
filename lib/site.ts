@@ -10,8 +10,6 @@ export const site = {
 
 export const nav = [
   { href: '/', label: 'Home' },
-  { href: '/transport', label: 'Transport & Logistics' },
-  { href: '/supplies', label: 'Supplies & Engineering' },
-  { href: '/automotive', label: 'Automotive' },
+  { href: '/automotive', label: 'Services' },
   { href: '/contact', label: 'Contact' },
 ];

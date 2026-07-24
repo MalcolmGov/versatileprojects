@@ -9,17 +9,18 @@ export default function Footer() {
         <div className="space-y-4">
           <Image src="/images/logo-full.png" alt="Versatile Projects" width={302} height={120} className="h-24 w-auto" />
           <p className="max-w-xs text-sm leading-relaxed text-white/50">
-            One partner for transport & logistics, industrial supply and premium automotive care — delivered with
-            precision across South Africa.
+            Premium mobile automotive care — detailing, dent repair, paint protection and more, brought directly to
+            your doorstep across South Africa.
           </p>
         </div>
 
         <div>
-          <h4 className="mb-4 text-sm font-semibold tracking-wider text-white/40 uppercase">Divisions</h4>
+          <h4 className="mb-4 text-sm font-semibold tracking-wider text-white/40 uppercase">Services</h4>
           <ul className="space-y-2.5 text-sm">
-            <li><Link href="/transport" className="text-white/70 transition-colors hover:text-mint">Transport & Logistics Brokers</Link></li>
-            <li><Link href="/supplies" className="text-white/70 transition-colors hover:text-mint">General Supplies & Engineering</Link></li>
-            <li><Link href="/automotive" className="text-white/70 transition-colors hover:text-mint">Versatile Auto</Link></li>
+            <li><Link href="/automotive" className="text-white/70 transition-colors hover:text-mint">Mobile Detailing</Link></li>
+            <li><Link href="/automotive" className="text-white/70 transition-colors hover:text-mint">Paintless Dent Removal</Link></li>
+            <li><Link href="/automotive" className="text-white/70 transition-colors hover:text-mint">Paint Protection Film</Link></li>
+            <li><Link href="/automotive" className="text-white/70 transition-colors hover:text-mint">Wrapping & Fitment</Link></li>
           </ul>
         </div>
 

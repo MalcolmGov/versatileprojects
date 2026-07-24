@@ -2,11 +2,17 @@
 const nextConfig = {
   async redirects() {
     return [
-      { source: '/transport-logistics-brokers', destination: '/transport', permanent: true },
-      { source: '/transport-logistics-brokers/:path*', destination: '/transport', permanent: true },
-      { source: '/home', destination: '/supplies', permanent: true },
+      // Legacy WordPress URLs
+      { source: '/transport-logistics-brokers', destination: '/automotive', permanent: true },
+      { source: '/transport-logistics-brokers/:path*', destination: '/automotive', permanent: true },
+      { source: '/home', destination: '/', permanent: true },
       { source: '/contact-us', destination: '/contact', permanent: true },
       { source: '/contact-us/:path*', destination: '/contact', permanent: true },
+      // Divisions paused while focusing on Automotive (temporary — pages retained in codebase)
+      { source: '/transport', destination: '/automotive', permanent: false },
+      { source: '/transport/:path*', destination: '/automotive', permanent: false },
+      { source: '/supplies', destination: '/automotive', permanent: false },
+      { source: '/supplies/:path*', destination: '/automotive', permanent: false },
     ];
   },
 };
