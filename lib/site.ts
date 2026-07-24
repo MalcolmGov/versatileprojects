@@ -5,7 +5,7 @@ export const site = {
   whatsapp: 'https://wa.me/27827021100',
   email: 'byron@versatileprojects.co.za',
   emailHref: 'mailto:byron@versatileprojects.co.za',
-  url: 'https://versatileprojects.co.za',
+  url: 'https://www.versatileprojects.co.za',
 };
 
 export const nav = [
